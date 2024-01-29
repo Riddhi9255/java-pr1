@@ -1,0 +1,9 @@
+class avg{
+    public static void main(String[] args) {
+        int a=100,b=70,c=80;
+        double sum=a+b+c;
+        double avg=sum/3;
+        System.out.println("sum of given three no is :"+sum);
+        System.out.println("average of given three no is :"+avg);
+    }
+}
