@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class palimdrome {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a number:");
+        int n = sc.nextInt();
+        int n1=n;
+        int rem=0,rev=0;
+        while (n1!=0)
+        {
+            rem=n1%10;
+            rev=(rev*10)+10;
+            n1=n1/10;
+
+        }
+        if(n==rev)
+        {
+            System.out.println(n + "is palindrom number");
+        }
+        else
+        {
+            System.out.println(n + "is not palindrom number");
+        }
+        sc.close();
+
+    }
+
+    
+}
