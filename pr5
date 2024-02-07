@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class arithmatic {
+
+    public static void main(String[] args) {
+        int a,b;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number:");
+        a = sc.nextInt();
+        System.out.println("enter the number:");
+        b = sc.nextInt();
+        System.out.println("the sum of a and b:"+(a+b));
+        System.out.println("the substraction of a and b:"+(a-b));
+        System.out.println("the multipliction of a and b:"+(a*b));
+        System.out.println("the division of a and b:"+((double)a/b));
+        System.out.println("the modulo of a and b:"+(a%b));
+        sc.close();
+
+
+    }
+    }
